@@ -1,3 +1,0 @@
-# TODO
-
-+ Prepare working examples
