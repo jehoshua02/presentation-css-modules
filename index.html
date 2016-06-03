@@ -21,95 +21,89 @@
 
 class: center, middle
 
-# CSS! What a Mess!
-
----
-
-# Modules
-
-With the advent of modules in Javascript, we all learned there was a better way to organize code.
-
----
-
-# CSS ... *le sigh*
-
-But alas, we carry some baggage into this brave new world. We dream of building modular, highly reusable, composable UI components but CSS makes this quite difficult.
+# CSS
+## Why Are You The Way That You Are?
 
 ---
 
 class: center, middle
 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/aYmOqPFyJPw" frameborder="0" allowfullscreen></iframe>
+
+---
+
+# Modules
+
+We want to build modular, highly reusable, composable components. With modern build tools we can get pretty close. But CSS stands in our way.
+
+---
+
 # Why?
 
----
-
-# Globals
-
-For decades, the experienced have told us about the terrors of globals.
-
----
-
-# Dependencies
-
-It's quite difficult to track down what depends on what and visual regressions are oh so easy to introduce. Dare we remove this CSS? Nay, we dare not.
++ Globals
++ Dependencies
++ Dead Code Elimination
++ Sharing Constants
++ Non-deterministic Resolution
++ Isolation
 
 ---
 
-# Dead Code Elimination
+# CSS in JS
 
-Because dependencies are not explicit and often our html is dynamically generated it is difficult if not impossible to eliminate dead css.
+An experimental idea introduced by the brilliant Christopher Chedeau.
 
----
+![CSS in JS](img/css-in-js.png)
 
-# Minification
-
-TODO
+See https://speakerdeck.com/vjeux/react-css-in-js
 
 ---
 
-# Sharing Constants
+# CSS in JS
 
-TODO
-
----
-
-# Non-deterministic Resolution
-
-TODO
-
----
-
-# Isolation
-
-TODO
++ [x] Globals
++ [x] Dependencies
++ [x] Dead Code Elimination
++ [x] Sharing Constants
++ [x] Non-deterministic Resolution
++ [x] Isolation
 
 ---
 
-# CSS + Modules
+# CSS Modules
 
-The best of both worlds
-
-Show examples of how it solves all the problems with CSS
-
-TODO
++ https://github.com/css-modules/css-modules
++ https://github.com/css-modules/webpack-demo
++ https://github.com/css-modules/css-modules/blob/master/docs/theming.md
 
 ---
 
-# Working Examples!
+# Try It
 
----
-
-# Other Techniques
-
-TODO
+https://github.com/jehoshua02/css-modules-example
 
 ---
 
 # Resources
 
-+ https://speakerdeck.com/vjeux/react-css-in-js
-+ http://glenmaddern.com/articles/css-modules
-+ https://github.com/MicheleBertoli/css-in-js
+CSS in JS Presentation
+
+https://speakerdeck.com/vjeux/react-css-in-js
+
+CSS Modules Article
+
+http://glenmaddern.com/articles/css-modules
+
+Other Techniques and Background Info
+
+https://github.com/MicheleBertoli/css-in-js
+
+---
+
+class: center, middle
+
+# The End
+## Questions?
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
